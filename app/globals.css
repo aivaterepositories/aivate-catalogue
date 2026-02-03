@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --color-mint: #99F6E4;
+  --color-indigo: #4F46E5;
+  --color-slate: #0F172A;
+  --gradient-indigo-mint: linear-gradient(135deg, #88ebc5 0%, #5946df 100%);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+}
