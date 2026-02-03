@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { ProjectCard } from "../components/ProjectCard";
+import { dashboards } from "@/data/dashboards";
 
 export default function DashboardSystemsPage() {
   return (
@@ -15,7 +17,7 @@ export default function DashboardSystemsPage() {
         </Link>
 
         {/* Header */}
-        <header className="text-center mb-16">
+        <header className="text-center mb-12 md:mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-indigo dark:text-mint mb-4 transition-colors duration-300">
             Dashboard Systems Portfolio
           </h1>
@@ -24,11 +26,16 @@ export default function DashboardSystemsPage() {
           </p>
         </header>
 
-        {/* Coming Soon */}
-        <div className="bg-gradient-to-br from-mint/10 to-indigo/10 dark:from-mint/5 dark:to-indigo/5 rounded-2xl p-12 text-center border border-indigo/10 dark:border-mint/20 transition-all duration-300">
-          <h2 className="text-2xl font-bold text-slate dark:text-mint mb-4 transition-colors duration-300">Coming Soon</h2>
-          <p className="text-slate/60 dark:text-white/60 transition-colors duration-300">
-            Dashboard projects will be showcased here
+        {/* Project Carousel */}
+        <ProjectCard projects={dashboards} type="dashboard" />
+
+        {/* Instructions */}
+        <div className="mt-12 p-6 bg-gradient-to-br from-mint/10 to-indigo/10 dark:from-mint/5 dark:to-indigo/5 rounded-2xl border border-indigo/10 dark:border-mint/20">
+          <h3 className="text-lg font-bold text-indigo dark:text-mint mb-2">
+            💡 How to add your projects
+          </h3>
+          <p className="text-slate/70 dark:text-white/70 text-sm">
+            Edit <code className="px-2 py-1 bg-white/50 dark:bg-slate/50 rounded">data/dashboards.ts</code> and replace the placeholder data with your Vercel URLs and project information.
           </p>
         </div>
       </div>
