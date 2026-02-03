@@ -3,13 +3,13 @@ import { Globe, LayoutDashboard, Workflow } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white flex flex-col items-center justify-center p-4 md:p-8">
+    <div className="min-h-screen bg-white dark:bg-slate flex flex-col items-center justify-center p-4 md:p-8 transition-colors duration-300">
       {/* Header */}
       <header className="text-center mb-12 md:mb-16">
         <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-gradient-indigo-mint bg-clip-text text-transparent">
           Aivate Catalogue
         </h1>
-        <p className="text-lg md:text-2xl text-slate font-light max-w-2xl">
+        <p className="text-lg md:text-2xl text-slate dark:text-mint/80 font-light max-w-2xl transition-colors duration-300">
           Premium Solutions for Modern Digital Business
         </p>
       </header>
@@ -37,7 +37,7 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <footer className="mt-16 text-slate/60 text-sm">
+      <footer className="mt-16 text-slate/60 dark:text-white/60 text-sm transition-colors duration-300">
         © 2026 Aivate. All rights reserved.
       </footer>
     </div>
@@ -54,9 +54,9 @@ interface NavigationCardProps {
 function NavigationCard({ href, icon, title, description }: NavigationCardProps) {
   return (
     <Link href={href}>
-      <div className="group relative bg-white rounded-2xl p-8 border-2 border-indigo/10 hover:border-indigo transition-all duration-300 cursor-pointer overflow-hidden h-full flex flex-col">
+      <div className="group relative bg-white dark:bg-slate/50 rounded-2xl p-8 border-2 border-indigo/10 dark:border-mint/20 hover:border-indigo dark:hover:border-mint transition-all duration-300 cursor-pointer overflow-hidden h-full flex flex-col">
         {/* Gradient Background on Hover */}
-        <div className="absolute inset-0 bg-gradient-indigo-mint opacity-0 group-hover:opacity-5 transition-opacity duration-300" />
+        <div className="absolute inset-0 bg-gradient-indigo-mint opacity-0 group-hover:opacity-5 dark:group-hover:opacity-10 transition-opacity duration-300" />
 
         {/* Content */}
         <div className="relative z-10 flex flex-col items-center text-center h-full">
@@ -66,17 +66,17 @@ function NavigationCard({ href, icon, title, description }: NavigationCardProps)
           </div>
 
           {/* Title */}
-          <h2 className="text-2xl font-bold text-indigo mb-3 group-hover:scale-105 transition-transform duration-300">
+          <h2 className="text-2xl font-bold text-indigo dark:text-mint mb-3 group-hover:scale-105 transition-all duration-300">
             {title}
           </h2>
 
           {/* Description */}
-          <p className="text-slate/70 leading-relaxed flex-grow">
+          <p className="text-slate/70 dark:text-white/70 leading-relaxed flex-grow transition-colors duration-300">
             {description}
           </p>
 
           {/* Arrow Indicator */}
-          <div className="mt-6 text-indigo font-semibold group-hover:translate-x-2 transition-transform duration-300 flex items-center gap-2">
+          <div className="mt-6 text-indigo dark:text-mint font-semibold group-hover:translate-x-2 transition-all duration-300 flex items-center gap-2">
             View Portfolio
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
