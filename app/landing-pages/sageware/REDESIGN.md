@@ -30,31 +30,42 @@
 - **Mood:** Dashboard, analytics, code, precise
 
 ### Color Palette
-- **Primary:** Indigo/Purple gradient
-- **Accents:** Vibrant pink, amber highlights
-- **Background:** Animated gradient blobs
-- **Text:** White on dark, dark on light
+- **Primary:** Deep indigo-900/purple-900/pink-900 gradient (WCAG AA compliant)
+- **Accents:** Amber-300/yellow-400 highlights for gradient text
+- **Background:** Dark animated gradient with black/30 overlay for contrast
+- **Text:** White with text shadows on dark backgrounds, dark on light sections
+- **Contrast Ratio:** Minimum 4.5:1 achieved with darkened gradients
 
 ---
 
 ## 🎯 New Components (100% Fresh)
 
 ### 1. HeroGlass
-**Full-screen glassmorphism hero**
+**Full-screen glassmorphism hero with enhanced contrast**
 
 **Features:**
-- Animated gradient background with floating blobs
-- Large glass card with frosted effect
+- Dark gradient background (indigo-900 → purple-900 → pink-900) for WCAG AA compliance
+- Black/30 overlay for additional contrast boost
+- Text shadows on all white text for legibility (0 4px 12px rgba(0,0,0,0.5))
+- Large glass card with subtle frosted effect (bg-white/5)
 - Bold typography with Fira Code
 - Dual CTAs (white primary, glass secondary)
 - Inline stats (sub-100ms, 99.9% uptime, 2.5M reports)
 - Scroll indicator animation
+- Forces light mode to prevent parent app dark mode interference
 
 **Conversion Elements:**
 - Trust badge with sparkle icon
 - "Trusted by 10,000+ Data Teams"
 - No credit card badge
 - Large, centered CTAs
+
+**Accessibility Improvements:**
+- Minimum 4.5:1 contrast ratio on all text
+- Text shadows for enhanced readability
+- Darkened gradient from 500 to 900 shades
+- Added dark overlay for contrast boost
+- Prevented dark mode inheritance
 
 ### 2. ProblemSolution
 **Before/After comparison pattern**
@@ -191,16 +202,25 @@ Proven landing page structure:
 
 ### WCAG AA Compliance
 - ✅ High contrast text (white on dark, dark on light)
+- ✅ Minimum 4.5:1 contrast ratio achieved with darkened gradients (900 shades)
+- ✅ Text shadows for enhanced legibility on all hero text
+- ✅ Dark overlay (bg-black/30) for additional contrast boost
 - ✅ Focus-visible states on all interactive elements
 - ✅ Proper form labels with htmlFor
 - ✅ ARIA labels for carousel navigation
 - ✅ Keyboard navigation (tab order)
 - ✅ Screen reader text (sr-only)
 - ✅ Semantic HTML structure
+- ✅ Light mode forced to prevent dark mode inheritance
 
-### Glass Effect Contrast
-- Ensured 4.5:1 minimum on all text
-- White text on dark gradients
+### Glass Effect Contrast (Enhanced)
+- Darkened background gradient from 500 → 900 shades (indigo, purple, pink)
+- Added black/30 overlay for contrast boost
+- Text shadows on all white text (0 4px 12px rgba(0,0,0,0.5))
+- Reduced glass card opacity from bg-white/10 to bg-white/5 for cleaner look
+- Improved stats text from white/80 to white/90
+- Ensured 4.5:1 minimum contrast on all text elements
+- White text with shadows on dark gradients
 - Dark text on light backgrounds
 - Border contrast for glass cards
 
@@ -372,7 +392,10 @@ Proven landing page structure:
 - [x] No emojis as icons (using Lucide SVGs)
 - [x] cursor-pointer on all clickable elements
 - [x] Smooth transitions (150-300ms)
-- [x] High contrast text (4.5:1 minimum)
+- [x] High contrast text (4.5:1 minimum) - **Enhanced with darkened gradients**
+- [x] Text shadows for improved readability
+- [x] Dark overlay for contrast boost (bg-black/30)
+- [x] Light mode forced to prevent dark mode inheritance
 - [x] Focus states visible
 - [x] prefers-reduced-motion respected
 - [x] Responsive at all breakpoints
