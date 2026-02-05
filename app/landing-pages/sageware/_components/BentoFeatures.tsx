@@ -9,60 +9,60 @@ export function BentoFeatures() {
       icon: Zap,
       title: 'Lightning Fast',
       description: 'Sub-100ms query response times on datasets with billions of rows.',
-      color: 'text-amber-600 dark:text-amber-400',
-      bgColor: 'bg-amber-50 dark:bg-amber-950/30',
-      borderColor: 'border-amber-200 dark:border-amber-800',
+      color: 'text-amber-600
+      bgColor: 'bg-amber-50
+      borderColor: 'border-amber-200
       span: 'lg:col-span-2',
     },
     {
       icon: Brain,
       title: 'AI-Powered Insights',
       description: 'Predictive analytics and anomaly detection powered by machine learning.',
-      color: 'text-purple-600 dark:text-purple-400',
-      bgColor: 'bg-purple-50 dark:bg-purple-950/30',
-      borderColor: 'border-purple-200 dark:border-purple-800',
+      color: 'text-purple-600
+      bgColor: 'bg-purple-50
+      borderColor: 'border-purple-200
       span: 'lg:col-span-1',
     },
     {
       icon: Shield,
       title: 'Enterprise Security',
       description: 'SOC 2 Type II certified with bank-level encryption.',
-      color: 'text-emerald-600 dark:text-emerald-400',
-      bgColor: 'bg-emerald-50 dark:bg-emerald-950/30',
-      borderColor: 'border-emerald-200 dark:border-emerald-800',
+      color: 'text-emerald-600
+      bgColor: 'bg-emerald-50
+      borderColor: 'border-emerald-200
       span: 'lg:col-span-1',
     },
     {
       icon: Puzzle,
       title: '1000+ Integrations',
       description: 'Connect seamlessly with Salesforce, HubSpot, AWS, and more.',
-      color: 'text-blue-600 dark:text-blue-400',
-      bgColor: 'bg-blue-50 dark:bg-blue-950/30',
-      borderColor: 'border-blue-200 dark:border-blue-800',
+      color: 'text-blue-600
+      bgColor: 'bg-blue-50
+      borderColor: 'border-blue-200
       span: 'lg:col-span-2',
     },
     {
       icon: Clock,
       title: 'Real-Time Dashboards',
       description: 'Custom dashboards that update in milliseconds as your data changes.',
-      color: 'text-indigo-600 dark:text-indigo-400',
-      bgColor: 'bg-indigo-50 dark:bg-indigo-950/30',
-      borderColor: 'border-indigo-200 dark:border-indigo-800',
+      color: 'text-indigo-600
+      bgColor: 'bg-indigo-50
+      borderColor: 'border-indigo-200
       span: 'lg:col-span-1',
     },
     {
       icon: Headphones,
       title: '24/7 Expert Support',
       description: 'Get help from our team with 90-second average response time.',
-      color: 'text-rose-600 dark:text-rose-400',
-      bgColor: 'bg-rose-50 dark:bg-rose-950/30',
-      borderColor: 'border-rose-200 dark:border-rose-800',
+      color: 'text-rose-600
+      bgColor: 'bg-rose-50
+      borderColor: 'border-rose-200
       span: 'lg:col-span-1',
     },
   ];
 
   return (
-    <section id="features" className="py-24 px-4 bg-white dark:bg-slate-950">
+    <section id="features" className="py-24 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <motion.div
@@ -73,13 +73,13 @@ export function BentoFeatures() {
           className="text-center mb-16"
         >
           <h2
-            className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-slate-50 mb-4"
+            className="text-4xl md:text-5xl font-bold text-slate-900 mb-4"
             style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}
           >
             Everything you need to scale
           </h2>
           <p
-            className="text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto"
+            className="text-xl text-slate-600 max-w-2xl mx-auto"
             style={{ fontFamily: 'Roboto, sans-serif', lineHeight: '1.6' }}
           >
             Powerful features designed for modern data teams
@@ -106,13 +106,13 @@ export function BentoFeatures() {
                     <Icon className={`w-6 h-6 ${feature.color}`} strokeWidth={1.5} />
                   </div>
                   <h3
-                    className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-2"
+                    className="text-xl font-bold text-slate-900 mb-2"
                     style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}
                   >
                     {feature.title}
                   </h3>
                   <p
-                    className="text-slate-600 dark:text-slate-400"
+                    className="text-slate-600"
                     style={{ fontFamily: 'Roboto, sans-serif', lineHeight: '1.6' }}
                   >
                     {feature.description}

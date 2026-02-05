@@ -56,7 +56,7 @@ export function WallOfLove() {
   ];
 
   return (
-    <section id="testimonials" className="py-24 px-4 bg-slate-50 dark:bg-slate-900">
+    <section id="testimonials" className="py-24 px-4 bg-slate-50">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <motion.div
@@ -67,13 +67,13 @@ export function WallOfLove() {
           className="text-center mb-16"
         >
           <h2
-            className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-slate-50 mb-4"
+            className="text-4xl md:text-5xl font-bold text-slate-900 mb-4"
             style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}
           >
             Loved by data teams
           </h2>
           <p
-            className="text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto"
+            className="text-xl text-slate-600 max-w-2xl mx-auto"
             style={{ fontFamily: 'Roboto, sans-serif', lineHeight: '1.6' }}
           >
             See what our customers have to say
@@ -91,7 +91,7 @@ export function WallOfLove() {
               transition={{ delay: index * 0.1 }}
               className="group cursor-pointer"
             >
-              <div className="h-full p-6 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-2xl transition-all duration-200 hover:-translate-y-1 hover:shadow-xl">
+              <div className="h-full p-6 bg-white border border-slate-200 rounded-2xl transition-all duration-200 hover:-translate-y-1 hover:shadow-xl">
                 {/* Stars */}
                 <div className="flex gap-1 mb-4">
                   {[...Array(5)].map((_, i) => (
@@ -101,31 +101,31 @@ export function WallOfLove() {
 
                 {/* Content */}
                 <p
-                  className="text-slate-700 dark:text-slate-300 mb-4"
+                  className="text-slate-700 mb-4"
                   style={{ fontFamily: 'Roboto, sans-serif', lineHeight: '1.6' }}
                 >
                   "{testimonial.content}"
                 </p>
 
                 {/* Metric Badge */}
-                <div className="inline-flex items-center px-3 py-1 bg-emerald-50 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-800 rounded-full mb-4">
-                  <span className="text-xs font-semibold text-emerald-700 dark:text-emerald-300">
+                <div className="inline-flex items-center px-3 py-1 bg-emerald-50 border border-emerald-200 rounded-full mb-4">
+                  <span className="text-xs font-semibold text-emerald-700">
                     {testimonial.metric}
                   </span>
                 </div>
 
                 {/* Author */}
-                <div className="flex items-center gap-3 pt-4 border-t border-slate-200 dark:border-slate-700">
-                  <div className="w-10 h-10 bg-indigo-100 dark:bg-indigo-950 rounded-full flex items-center justify-center">
-                    <span className="text-sm font-bold text-indigo-600 dark:text-indigo-400">
+                <div className="flex items-center gap-3 pt-4 border-t border-slate-200">
+                  <div className="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center">
+                    <span className="text-sm font-bold text-indigo-600">
                       {testimonial.avatar}
                     </span>
                   </div>
                   <div>
-                    <div className="font-semibold text-slate-900 dark:text-slate-50 text-sm">
+                    <div className="font-semibold text-slate-900 text-sm">
                       {testimonial.name}
                     </div>
-                    <div className="text-xs text-slate-600 dark:text-slate-400">
+                    <div className="text-xs text-slate-600">
                       {testimonial.role} at {testimonial.company}
                     </div>
                   </div>
