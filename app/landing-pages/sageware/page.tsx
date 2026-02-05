@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function SagewarePage() {
   return (
-    <main className="min-h-screen bg-white dark:bg-slate-950">
+    <main className="min-h-screen bg-white">
       <FloatingNav />
       <HeroModern />
       <LogoCloud />
