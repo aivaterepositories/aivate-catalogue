@@ -4,10 +4,10 @@ export const landingPages: LandingPage[] = [
   {
     id: 1,
     title: "Sageware - AI-Powered Business Intelligence",
-    description: "Professional SaaS landing page for AI-powered analytics platform. Features real-time analytics, predictive insights, custom dashboards, and enterprise security. Includes pricing tiers, testimonials, and conversion-optimized design.",
-    vercelUrl: "https://aivate-catalogue.vercel.app/landing-pages/sageware.html",
-    image: "https://placehold.co/1200x800/0EA5E9/FFFFFF?text=Sageware+Analytics",
-    technologies: ["HTML5", "Tailwind CSS", "Vanilla JavaScript"],
+    description: "Professional SaaS landing page for AI-powered analytics platform. Features real-time analytics, predictive insights, custom dashboards, and enterprise security. Built with Next.js, TypeScript, and Framer Motion for smooth animations.",
+    vercelUrl: "https://aivate-catalogue.vercel.app/landing-pages/sageware",
+    image: "https://placehold.co/1200x800/1E40AF/FFFFFF?text=Sageware+Analytics",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     category: "SaaS"
   },
   {

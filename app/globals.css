@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -14,4 +14,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: #000000;
+}
+
+.font-heading {
+  font-family: 'Poppins', sans-serif;
 }
