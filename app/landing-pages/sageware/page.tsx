@@ -12,12 +12,15 @@ export const metadata: Metadata = {
 
 export default function SagewarePage() {
   return (
-    <main className="min-h-screen bg-white">
-      <HeroGlass />
-      <ProblemSolution />
-      <SocialProof />
-      <SimplePricing />
-      <FinalCTA />
+    <main className="min-h-screen bg-white light">
+      {/* Force light mode - prevent dark mode inheritance from parent */}
+      <div className="bg-white text-gray-900">
+        <HeroGlass />
+        <ProblemSolution />
+        <SocialProof />
+        <SimplePricing />
+        <FinalCTA />
+      </div>
     </main>
   );
 }
