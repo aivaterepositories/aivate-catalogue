@@ -3,11 +3,11 @@ import { LandingPage } from '@/types';
 export const landingPages: LandingPage[] = [
   {
     id: 1,
-    title: "SaaS Landing Page - Placeholder",
-    description: "Modern SaaS landing page with hero section, features, and pricing",
-    vercelUrl: "https://example.com", // Replace with your Vercel URL
-    image: "https://placehold.co/1200x800/4F46E5/FFFFFF?text=Landing+Page+1",
-    technologies: ["Next.js", "Tailwind CSS", "Framer Motion"],
+    title: "Sageware - AI-Powered Business Intelligence",
+    description: "Professional SaaS landing page for AI-powered analytics platform. Features real-time analytics, predictive insights, custom dashboards, and enterprise security. Includes pricing tiers, testimonials, and conversion-optimized design.",
+    vercelUrl: "https://aivate-catalogue.vercel.app/landing-pages/sageware.html",
+    image: "https://placehold.co/1200x800/0EA5E9/FFFFFF?text=Sageware+Analytics",
+    technologies: ["HTML5", "Tailwind CSS", "Vanilla JavaScript"],
     category: "SaaS"
   },
   {
