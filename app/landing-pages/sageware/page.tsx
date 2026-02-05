@@ -1,9 +1,11 @@
 import { Metadata } from 'next';
-import { HeroGlass } from './_components/HeroGlass';
-import { ProblemSolution } from './_components/ProblemSolution';
-import { SocialProof } from './_components/SocialProof';
-import { SimplePricing } from './_components/SimplePricing';
-import { FinalCTA } from './_components/FinalCTA';
+import { FloatingNav } from './_components/FloatingNav';
+import { HeroModern } from './_components/HeroModern';
+import { LogoCloud } from './_components/LogoCloud';
+import { BentoFeatures } from './_components/BentoFeatures';
+import { WallOfLove } from './_components/WallOfLove';
+import { PricingModern } from './_components/PricingModern';
+import { FinalCTAModern } from './_components/FinalCTAModern';
 
 export const metadata: Metadata = {
   title: 'Sageware - Turn Data Into Decisions in Real-Time',
@@ -12,15 +14,14 @@ export const metadata: Metadata = {
 
 export default function SagewarePage() {
   return (
-    <main className="min-h-screen bg-white light">
-      {/* Force light mode - prevent dark mode inheritance from parent */}
-      <div className="bg-white text-gray-900">
-        <HeroGlass />
-        <ProblemSolution />
-        <SocialProof />
-        <SimplePricing />
-        <FinalCTA />
-      </div>
+    <main className="min-h-screen bg-white dark:bg-slate-950">
+      <FloatingNav />
+      <HeroModern />
+      <LogoCloud />
+      <BentoFeatures />
+      <WallOfLove />
+      <PricingModern />
+      <FinalCTAModern />
     </main>
   );
 }
