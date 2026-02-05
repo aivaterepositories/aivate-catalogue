@@ -37,7 +37,7 @@ export function LogoCloud() {
               transition={{ delay: index * 0.1 }}
               className="flex items-center justify-center"
             >
-              <div className="text-2xl font-bold text-slate-400" style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}>
+              <div className="text-2xl font-bold text-slate-400" style={{ fontFamily: 'Poppins, sans-serif', letterSpacing: '-0.02em' }}>
                 {company}
               </div>
             </motion.div>

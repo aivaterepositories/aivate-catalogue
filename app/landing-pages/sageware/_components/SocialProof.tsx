@@ -66,8 +66,8 @@ export function SocialProof() {
             className="backdrop-blur-xl bg-white/80 border border-gray-200 rounded-3xl p-12 md:p-16 shadow-2xl relative"
           >
             {/* Quote Icon */}
-            <div className="absolute top-8 left-8 w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center">
-              <Quote className="w-8 h-8 text-indigo-600" />
+            <div className="absolute top-8 left-8 w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+              <Quote className="w-8 h-8 text-blue-700" />
             </div>
 
             {/* Rating */}
@@ -109,9 +109,9 @@ export function SocialProof() {
               <button
                 key={index}
                 onClick={() => setActiveIndex(index)}
-                className={`transition-all duration-200 rounded-full cursor-pointer focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-600 ${
+                className={`transition-all duration-200 rounded-full cursor-pointer focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-700 ${
                   index === activeIndex
-                    ? 'w-12 h-3 bg-indigo-600'
+                    ? 'w-12 h-3 bg-blue-700'
                     : 'w-3 h-3 bg-gray-300 hover:bg-gray-400'
                 }`}
                 aria-label={`Go to testimonial ${index + 1}`}

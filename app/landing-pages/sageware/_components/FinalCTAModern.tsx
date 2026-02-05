@@ -38,13 +38,13 @@ export function FinalCTAModern() {
           {/* Heading */}
           <h2
             className="text-4xl md:text-5xl font-bold text-slate-900 mb-4"
-            style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}
+            style={{ fontFamily: 'Poppins, sans-serif', letterSpacing: '-0.02em' }}
           >
             Ready to scale your data strategy?
           </h2>
           <p
             className="text-xl text-slate-600 mb-10 max-w-2xl mx-auto"
-            style={{ fontFamily: 'Roboto, sans-serif', lineHeight: '1.6' }}
+            style={{ fontFamily: 'Open Sans, sans-serif', lineHeight: '1.6' }}
           >
             Join 10,000+ teams making faster, smarter decisions with Sageware
           </p>
@@ -64,15 +64,15 @@ export function FinalCTAModern() {
                   placeholder="Enter your work email"
                   required
                   disabled={isSubmitting || isSuccess}
-                  className="w-full px-6 py-4 bg-white border border-slate-200 rounded-xl text-slate-900 placeholder-slate-400 focus-visible:border-indigo-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600/20 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
-                  style={{ fontFamily: 'Roboto, sans-serif' }}
+                  className="w-full px-6 py-4 bg-white border border-slate-200 rounded-xl text-slate-900 placeholder-slate-400 focus-visible:border-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-700/20 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                  style={{ fontFamily: 'Open Sans, sans-serif' }}
                 />
               </div>
               <button
                 type="submit"
                 disabled={isSubmitting || isSuccess}
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-semibold transition-all duration-200 shadow-sm hover:shadow-md cursor-pointer focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-600 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-indigo-600"
-                style={{ fontFamily: 'Inter, sans-serif' }}
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-blue-700 hover:bg-blue-800 text-white rounded-xl font-semibold transition-all duration-200 shadow-sm hover:shadow-md cursor-pointer focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-700 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-blue-700"
+                style={{ fontFamily: 'Poppins, sans-serif' }}
               >
                 {isSubmitting ? (
                   'Starting...'

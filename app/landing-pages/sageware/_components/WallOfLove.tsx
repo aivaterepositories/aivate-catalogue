@@ -68,13 +68,13 @@ export function WallOfLove() {
         >
           <h2
             className="text-4xl md:text-5xl font-bold text-slate-900 mb-4"
-            style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}
+            style={{ fontFamily: 'Poppins, sans-serif', letterSpacing: '-0.02em' }}
           >
             Loved by data teams
           </h2>
           <p
             className="text-xl text-slate-600 max-w-2xl mx-auto"
-            style={{ fontFamily: 'Roboto, sans-serif', lineHeight: '1.6' }}
+            style={{ fontFamily: 'Open Sans, sans-serif', lineHeight: '1.6' }}
           >
             See what our customers have to say
           </p>
@@ -102,7 +102,7 @@ export function WallOfLove() {
                 {/* Content */}
                 <p
                   className="text-slate-700 mb-4"
-                  style={{ fontFamily: 'Roboto, sans-serif', lineHeight: '1.6' }}
+                  style={{ fontFamily: 'Open Sans, sans-serif', lineHeight: '1.6' }}
                 >
                   "{testimonial.content}"
                 </p>
@@ -116,8 +116,8 @@ export function WallOfLove() {
 
                 {/* Author */}
                 <div className="flex items-center gap-3 pt-4 border-t border-slate-200">
-                  <div className="w-10 h-10 bg-indigo-100 rounded-full flex items-center justify-center">
-                    <span className="text-sm font-bold text-indigo-600">
+                  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
+                    <span className="text-sm font-bold text-blue-700">
                       {testimonial.avatar}
                     </span>
                   </div>

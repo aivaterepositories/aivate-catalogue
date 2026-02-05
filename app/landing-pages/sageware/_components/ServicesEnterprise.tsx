@@ -60,13 +60,13 @@ export function ServicesEnterprise() {
         >
           <h2
             className="text-4xl md:text-5xl font-bold text-slate-900 mb-4"
-            style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}
+            style={{ fontFamily: 'Poppins, sans-serif', letterSpacing: '-0.02em' }}
           >
             For Enterprises
           </h2>
           <p
             className="text-xl text-slate-600 max-w-3xl"
-            style={{ fontFamily: 'Roboto, sans-serif', lineHeight: '1.6' }}
+            style={{ fontFamily: 'Open Sans, sans-serif', lineHeight: '1.6' }}
           >
             Enterprise-grade solutions designed to streamline operations and drive growth
           </p>
@@ -85,19 +85,19 @@ export function ServicesEnterprise() {
                 transition={{ delay: index * 0.1 }}
                 className="group cursor-pointer"
               >
-                <div className="h-full p-6 bg-slate-50 border border-slate-200 rounded-2xl transition-all duration-200 hover:-translate-y-1 hover:shadow-lg hover:border-indigo-200">
-                  <div className="w-12 h-12 bg-indigo-100 border border-indigo-200 rounded-xl flex items-center justify-center mb-4">
-                    <Icon className="w-6 h-6 text-indigo-600" strokeWidth={1.5} />
+                <div className="h-full p-6 bg-slate-50 border border-slate-200 rounded-2xl transition-all duration-200 hover:-translate-y-1 hover:shadow-lg hover:border-blue-200">
+                  <div className="w-12 h-12 bg-blue-100 border border-blue-200 rounded-xl flex items-center justify-center mb-4">
+                    <Icon className="w-6 h-6 text-blue-700" strokeWidth={1.5} />
                   </div>
                   <h3
                     className="text-lg font-bold text-slate-900 mb-2"
-                    style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}
+                    style={{ fontFamily: 'Poppins, sans-serif', letterSpacing: '-0.02em' }}
                   >
                     {service.title}
                   </h3>
                   <p
                     className="text-slate-600 text-sm"
-                    style={{ fontFamily: 'Roboto, sans-serif', lineHeight: '1.6' }}
+                    style={{ fontFamily: 'Open Sans, sans-serif', lineHeight: '1.6' }}
                   >
                     {service.description}
                   </p>

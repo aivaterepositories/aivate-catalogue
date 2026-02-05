@@ -45,13 +45,13 @@ export function ServicesStartup() {
         >
           <h2
             className="text-4xl md:text-5xl font-bold text-slate-900 mb-4"
-            style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}
+            style={{ fontFamily: 'Poppins, sans-serif', letterSpacing: '-0.02em' }}
           >
             For Startups
           </h2>
           <p
             className="text-xl text-slate-600 max-w-3xl"
-            style={{ fontFamily: 'Roboto, sans-serif', lineHeight: '1.6' }}
+            style={{ fontFamily: 'Open Sans, sans-serif', lineHeight: '1.6' }}
           >
             Launch and scale your startup with expert technical guidance
           </p>
@@ -76,13 +76,13 @@ export function ServicesStartup() {
                   </div>
                   <h3
                     className="text-xl font-bold text-slate-900 mb-2"
-                    style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}
+                    style={{ fontFamily: 'Poppins, sans-serif', letterSpacing: '-0.02em' }}
                   >
                     {service.title}
                   </h3>
                   <p
                     className="text-slate-600"
-                    style={{ fontFamily: 'Roboto, sans-serif', lineHeight: '1.6' }}
+                    style={{ fontFamily: 'Open Sans, sans-serif', lineHeight: '1.6' }}
                   >
                     {service.description}
                   </p>

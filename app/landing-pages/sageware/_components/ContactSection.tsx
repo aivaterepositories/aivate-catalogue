@@ -42,7 +42,7 @@ export function ContactSection() {
           >
             <h2
               className="text-4xl md:text-5xl font-bold text-slate-900 mb-4"
-              style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}
+              style={{ fontFamily: 'Poppins, sans-serif', letterSpacing: '-0.02em' }}
             >
               Let's Build Something
               <br />
@@ -50,7 +50,7 @@ export function ContactSection() {
             </h2>
             <p
               className="text-xl text-slate-600 mb-8"
-              style={{ fontFamily: 'Roboto, sans-serif', lineHeight: '1.6' }}
+              style={{ fontFamily: 'Open Sans, sans-serif', lineHeight: '1.6' }}
             >
               Looking for a partner who understands your challenges and delivers solutions that work? Get in touch today.
             </p>
@@ -58,14 +58,14 @@ export function ContactSection() {
             <div className="space-y-6">
               {/* Email */}
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-indigo-100 border border-indigo-200 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <Mail className="w-6 h-6 text-indigo-600" strokeWidth={1.5} />
+                <div className="w-12 h-12 bg-blue-100 border border-blue-200 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Mail className="w-6 h-6 text-blue-700" strokeWidth={1.5} />
                 </div>
                 <div>
                   <div className="font-semibold text-slate-900 mb-1">Email Us</div>
                   <a
                     href="mailto:hello@sageware.io"
-                    className="text-indigo-600 hover:text-indigo-700 transition-colors"
+                    className="text-blue-700 hover:text-blue-800 transition-colors"
                   >
                     hello@sageware.io
                   </a>
@@ -117,7 +117,7 @@ export function ContactSection() {
             <div className="bg-white border border-slate-200 rounded-2xl p-8 shadow-sm">
               <h3
                 className="text-2xl font-bold text-slate-900 mb-6"
-                style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}
+                style={{ fontFamily: 'Poppins, sans-serif', letterSpacing: '-0.02em' }}
               >
                 Send us a message
               </h3>
@@ -134,7 +134,7 @@ export function ContactSection() {
                     onChange={(e) => setName(e.target.value)}
                     required
                     disabled={isSubmitting || isSuccess}
-                    className="w-full px-4 py-3 bg-white border border-slate-200 rounded-xl text-slate-900 placeholder-slate-400 focus-visible:border-indigo-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600/20 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="w-full px-4 py-3 bg-white border border-slate-200 rounded-xl text-slate-900 placeholder-slate-400 focus-visible:border-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-700/20 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
                     placeholder="Your name"
                   />
                 </div>
@@ -150,7 +150,7 @@ export function ContactSection() {
                     onChange={(e) => setEmail(e.target.value)}
                     required
                     disabled={isSubmitting || isSuccess}
-                    className="w-full px-4 py-3 bg-white border border-slate-200 rounded-xl text-slate-900 placeholder-slate-400 focus-visible:border-indigo-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600/20 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="w-full px-4 py-3 bg-white border border-slate-200 rounded-xl text-slate-900 placeholder-slate-400 focus-visible:border-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-700/20 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed"
                     placeholder="your@email.com"
                   />
                 </div>
@@ -166,7 +166,7 @@ export function ContactSection() {
                     required
                     rows={4}
                     disabled={isSubmitting || isSuccess}
-                    className="w-full px-4 py-3 bg-white border border-slate-200 rounded-xl text-slate-900 placeholder-slate-400 focus-visible:border-indigo-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-600/20 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed resize-none"
+                    className="w-full px-4 py-3 bg-white border border-slate-200 rounded-xl text-slate-900 placeholder-slate-400 focus-visible:border-blue-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-700/20 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed resize-none"
                     placeholder="Tell us about your project..."
                   />
                 </div>
@@ -174,8 +174,8 @@ export function ContactSection() {
                 <button
                   type="submit"
                   disabled={isSubmitting || isSuccess}
-                  className="w-full inline-flex items-center justify-center gap-2 px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-semibold transition-all duration-200 shadow-sm hover:shadow-md cursor-pointer focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-600 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-indigo-600"
-                  style={{ fontFamily: 'Inter, sans-serif' }}
+                  className="w-full inline-flex items-center justify-center gap-2 px-8 py-4 bg-blue-700 hover:bg-blue-800 text-white rounded-xl font-semibold transition-all duration-200 shadow-sm hover:shadow-md cursor-pointer focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-700 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-blue-700"
+                  style={{ fontFamily: 'Poppins, sans-serif' }}
                 >
                   {isSubmitting ? (
                     'Sending...'

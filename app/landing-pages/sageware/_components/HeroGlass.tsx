@@ -72,7 +72,7 @@ export function HeroGlass() {
           >
             <a
               href="#demo"
-              className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-indigo-600 rounded-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-2xl hover:scale-105 cursor-pointer focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white"
+              className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-blue-700 rounded-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-2xl hover:scale-105 cursor-pointer focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white"
               style={{ fontFamily: 'Fira Sans, sans-serif' }}
             >
               Start Free Trial

@@ -38,13 +38,13 @@ export function WhyChooseUs() {
         >
           <h2
             className="text-4xl md:text-5xl font-bold text-slate-900 mb-4"
-            style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}
+            style={{ fontFamily: 'Poppins, sans-serif', letterSpacing: '-0.02em' }}
           >
             Why Choose Us?
           </h2>
           <p
             className="text-xl text-slate-600 max-w-2xl mx-auto"
-            style={{ fontFamily: 'Roboto, sans-serif', lineHeight: '1.6' }}
+            style={{ fontFamily: 'Open Sans, sans-serif', lineHeight: '1.6' }}
           >
             Partner with experts who understand your challenges
           </p>
@@ -61,9 +61,9 @@ export function WhyChooseUs() {
                 border: 'border-amber-200',
               },
               indigo: {
-                icon: 'text-indigo-600',
-                bg: 'bg-indigo-50',
-                border: 'border-indigo-200',
+                icon: 'text-blue-700',
+                bg: 'bg-blue-50',
+                border: 'border-blue-200',
               },
               emerald: {
                 icon: 'text-emerald-600',
@@ -86,13 +86,13 @@ export function WhyChooseUs() {
                 </div>
                 <h3
                   className="text-2xl font-bold text-slate-900 mb-3"
-                  style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}
+                  style={{ fontFamily: 'Poppins, sans-serif', letterSpacing: '-0.02em' }}
                 >
                   {reason.title}
                 </h3>
                 <p
                   className="text-slate-600"
-                  style={{ fontFamily: 'Roboto, sans-serif', lineHeight: '1.6' }}
+                  style={{ fontFamily: 'Open Sans, sans-serif', lineHeight: '1.6' }}
                 >
                   {reason.description}
                 </p>

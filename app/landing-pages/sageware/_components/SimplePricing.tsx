@@ -32,7 +32,7 @@ export function SimplePricing() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="backdrop-blur-xl bg-gradient-to-br from-indigo-600 to-purple-600 text-white rounded-3xl p-12 md:p-16 shadow-2xl relative overflow-hidden"
+          className="backdrop-blur-xl bg-gradient-to-br from-blue-700 to-purple-600 text-white rounded-3xl p-12 md:p-16 shadow-2xl relative overflow-hidden"
         >
           {/* Decorative Elements */}
           <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full filter blur-3xl" />
@@ -95,7 +95,7 @@ export function SimplePricing() {
               viewport={{ once: true }}
               transition={{ delay: 0.6 }}
               href="#demo"
-              className="inline-flex items-center justify-center px-12 py-5 bg-white text-indigo-600 rounded-xl font-bold text-lg transition-all duration-200 shadow-lg hover:shadow-2xl hover:scale-105 cursor-pointer focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white"
+              className="inline-flex items-center justify-center px-12 py-5 bg-white text-blue-700 rounded-xl font-bold text-lg transition-all duration-200 shadow-lg hover:shadow-2xl hover:scale-105 cursor-pointer focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white"
               style={{ fontFamily: 'Fira Sans, sans-serif' }}
             >
               Start 14-Day Free Trial

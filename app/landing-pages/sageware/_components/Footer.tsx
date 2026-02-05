@@ -10,10 +10,10 @@ export function Footer() {
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-br from-indigo-600 to-indigo-700 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm" style={{ fontFamily: 'JetBrains Mono, monospace' }}>S</span>
+              <div className="w-8 h-8 bg-gradient-to-br from-blue-700 to-blue-800 rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-sm" style={{ fontFamily: 'Poppins, sans-serif' }}>S</span>
               </div>
-              <span className="text-xl font-bold" style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}>
+              <span className="text-xl font-bold" style={{ fontFamily: 'Poppins, sans-serif', letterSpacing: '-0.02em' }}>
                 Sageware Solutions Inc.
               </span>
             </div>

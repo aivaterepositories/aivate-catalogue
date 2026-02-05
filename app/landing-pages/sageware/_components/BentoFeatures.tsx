@@ -45,9 +45,9 @@ export function BentoFeatures() {
       icon: Clock,
       title: 'Real-Time Dashboards',
       description: 'Custom dashboards that update in milliseconds as your data changes.',
-      color: 'text-indigo-600
-      bgColor: 'bg-indigo-50
-      borderColor: 'border-indigo-200
+      color: 'text-blue-700
+      bgColor: 'bg-blue-50
+      borderColor: 'border-blue-200
       span: 'lg:col-span-1',
     },
     {
@@ -74,13 +74,13 @@ export function BentoFeatures() {
         >
           <h2
             className="text-4xl md:text-5xl font-bold text-slate-900 mb-4"
-            style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}
+            style={{ fontFamily: 'Poppins, sans-serif', letterSpacing: '-0.02em' }}
           >
             Everything you need to scale
           </h2>
           <p
             className="text-xl text-slate-600 max-w-2xl mx-auto"
-            style={{ fontFamily: 'Roboto, sans-serif', lineHeight: '1.6' }}
+            style={{ fontFamily: 'Open Sans, sans-serif', lineHeight: '1.6' }}
           >
             Powerful features designed for modern data teams
           </p>
@@ -107,13 +107,13 @@ export function BentoFeatures() {
                   </div>
                   <h3
                     className="text-xl font-bold text-slate-900 mb-2"
-                    style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}
+                    style={{ fontFamily: 'Poppins, sans-serif', letterSpacing: '-0.02em' }}
                   >
                     {feature.title}
                   </h3>
                   <p
                     className="text-slate-600"
-                    style={{ fontFamily: 'Roboto, sans-serif', lineHeight: '1.6' }}
+                    style={{ fontFamily: 'Open Sans, sans-serif', lineHeight: '1.6' }}
                   >
                     {feature.description}
                   </p>

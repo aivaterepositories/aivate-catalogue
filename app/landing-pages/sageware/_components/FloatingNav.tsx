@@ -14,10 +14,10 @@ export function FloatingNav() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-indigo-600 to-indigo-700 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm" style={{ fontFamily: 'JetBrains Mono, monospace' }}>S</span>
+            <div className="w-8 h-8 bg-gradient-to-br from-blue-700 to-blue-800 rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-sm" style={{ fontFamily: 'Poppins, sans-serif' }}>S</span>
             </div>
-            <span className="text-xl font-bold text-slate-900" style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}>
+            <span className="text-xl font-bold text-slate-900" style={{ fontFamily: 'Poppins, sans-serif', letterSpacing: '-0.02em' }}>
               Sageware
             </span>
           </div>
@@ -35,8 +35,8 @@ export function FloatingNav() {
           {/* CTA */}
           <a
             href="#contact"
-            className="inline-flex items-center gap-2 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg font-semibold text-sm transition-all duration-200 shadow-sm hover:shadow-md cursor-pointer focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-600"
-            style={{ fontFamily: 'Inter, sans-serif' }}
+            className="inline-flex items-center gap-2 px-6 py-2.5 bg-blue-700 hover:bg-blue-800 text-white rounded-lg font-semibold text-sm transition-all duration-200 shadow-sm hover:shadow-md cursor-pointer focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-700"
+            style={{ fontFamily: 'Poppins, sans-serif' }}
           >
             Get Started
             <ArrowRight className="w-4 h-4" strokeWidth={1.5} />

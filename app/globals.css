@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,20 +6,21 @@
 
 :root {
   --color-mint: #99F6E4;
-  --color-indigo: #4F46E5;
-  --color-slate: #0F172A;
+  --color-navy: #1e3a8a;
+  --color-slate: #1e293b;
+  --color-grey: #64748b;
   --gradient-indigo-mint: linear-gradient(135deg, #88ebc5 0%, #5946df 100%);
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #0F172A;
+  font-family: 'Open Sans', sans-serif;
+  color: #1e293b;
 }
 
 .font-heading {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .font-mono {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Open Sans', sans-serif;
 }

@@ -34,7 +34,7 @@ export function ProblemSolution() {
             style={{ fontFamily: 'Fira Code, monospace' }}
           >
             Stop Struggling.<br />
-            Start <span className="text-indigo-600">Scaling</span>.
+            Start <span className="text-blue-700">Scaling</span>.
           </h2>
         </motion.div>
 
@@ -94,7 +94,7 @@ export function ProblemSolution() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <div className="backdrop-blur-xl bg-gradient-to-br from-indigo-50 to-purple-50 border border-indigo-200 rounded-2xl p-8 relative overflow-hidden">
+            <div className="backdrop-blur-xl bg-gradient-to-br from-indigo-50 to-purple-50 border border-blue-200 rounded-2xl p-8 relative overflow-hidden">
               {/* Decorative Element */}
               <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-200 rounded-full filter blur-3xl opacity-30" />
 
@@ -109,7 +109,7 @@ export function ProblemSolution() {
                   >
                     With Sageware
                   </h3>
-                  <p className="text-indigo-600 text-sm font-medium">AI-powered platform</p>
+                  <p className="text-blue-700 text-sm font-medium">AI-powered platform</p>
                 </div>
               </div>
 
@@ -121,7 +121,7 @@ export function ProblemSolution() {
                     whileInView={{ opacity: 1, x: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1 }}
-                    className="flex items-start gap-3 p-4 bg-white/80 backdrop-blur-sm rounded-lg border border-indigo-200"
+                    className="flex items-start gap-3 p-4 bg-white/80 backdrop-blur-sm rounded-lg border border-blue-200"
                   >
                     <Check className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
                     <span className="text-gray-900 font-medium">{solution}</span>
@@ -151,7 +151,7 @@ export function ProblemSolution() {
         >
           <a
             href="#demo"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105 cursor-pointer focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-600"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-blue-700 hover:bg-blue-800 text-white rounded-xl font-semibold transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105 cursor-pointer focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-700"
             style={{ fontFamily: 'Fira Sans, sans-serif' }}
           >
             See the Difference Yourself

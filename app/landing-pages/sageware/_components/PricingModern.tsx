@@ -71,13 +71,13 @@ export function PricingModern() {
         >
           <h2
             className="text-4xl md:text-5xl font-bold text-slate-900 mb-4"
-            style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}
+            style={{ fontFamily: 'Poppins, sans-serif', letterSpacing: '-0.02em' }}
           >
             Simple, transparent pricing
           </h2>
           <p
             className="text-xl text-slate-600 mb-8 max-w-2xl mx-auto"
-            style={{ fontFamily: 'Roboto, sans-serif', lineHeight: '1.6' }}
+            style={{ fontFamily: 'Open Sans, sans-serif', lineHeight: '1.6' }}
           >
             Choose the plan that's right for your team
           </p>
@@ -124,13 +124,13 @@ export function PricingModern() {
               <div
                 className={`h-full p-8 border rounded-2xl transition-all duration-200 hover:-translate-y-1 hover:shadow-xl ${
                   plan.popular
-                    ? 'border-indigo-600 bg-gradient-to-br from-indigo-50 to-purple-50
+                    ? 'border-blue-700 bg-gradient-to-br from-indigo-50 to-purple-50
                     : 'border-slate-200 bg-white
                 }`}
               >
                 {/* Badge */}
                 {plan.popular && (
-                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 inline-flex items-center gap-2 px-4 py-2 bg-indigo-600 text-white rounded-full text-sm font-semibold shadow-lg">
+                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 inline-flex items-center gap-2 px-4 py-2 bg-blue-700 text-white rounded-full text-sm font-semibold shadow-lg">
                     <Zap className="w-4 h-4 fill-white" strokeWidth={1.5} />
                     Most Popular
                   </div>
@@ -140,7 +140,7 @@ export function PricingModern() {
                 <div className="mb-6">
                   <h3
                     className="text-2xl font-bold text-slate-900 mb-2"
-                    style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}
+                    style={{ fontFamily: 'Poppins, sans-serif', letterSpacing: '-0.02em' }}
                   >
                     {plan.name}
                   </h3>
@@ -176,10 +176,10 @@ export function PricingModern() {
                   href={plan.custom ? '#contact' : '#demo'}
                   className={`block w-full text-center px-6 py-3 rounded-xl font-semibold transition-all duration-200 shadow-sm hover:shadow-md mb-6 focus-visible:ring-2 focus-visible:ring-offset-2 ${
                     plan.popular
-                      ? 'bg-indigo-600 hover:bg-indigo-700 text-white focus-visible:ring-indigo-600'
+                      ? 'bg-blue-700 hover:bg-blue-800 text-white focus-visible:ring-blue-700'
                       : 'bg-slate-100 hover:bg-slate-200 text-slate-900 focus-visible:ring-slate-900'
                   }`}
-                  style={{ fontFamily: 'Inter, sans-serif' }}
+                  style={{ fontFamily: 'Poppins, sans-serif' }}
                 >
                   {plan.custom ? 'Contact Sales' : 'Start Free Trial'}
                 </a>
@@ -190,7 +190,7 @@ export function PricingModern() {
                     <div key={feature} className="flex items-start gap-3">
                       <Check
                         className={`w-5 h-5 flex-shrink-0 mt-0.5 ${
-                          plan.popular ? 'text-indigo-600 : 'text-emerald-600
+                          plan.popular ? 'text-blue-700 : 'text-emerald-600
                         }`}
                         strokeWidth={1.5}
                       />

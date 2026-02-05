@@ -30,11 +30,11 @@ export function HeroModern() {
             {/* Main Headline */}
             <h1
               className="text-5xl md:text-6xl lg:text-7xl font-bold text-slate-900 mb-6 leading-tight"
-              style={{ fontFamily: 'Inter, sans-serif', letterSpacing: '-0.02em' }}
+              style={{ fontFamily: 'Poppins, sans-serif', letterSpacing: '-0.02em' }}
             >
               Turn Data Into
               <br />
-              <span className="text-indigo-600">Decisions</span>
+              <span className="text-blue-700">Decisions</span>
               <br />
               in Real-Time
             </h1>
@@ -42,7 +42,7 @@ export function HeroModern() {
             {/* Description */}
             <p
               className="text-xl text-slate-600 mb-8 max-w-xl leading-relaxed"
-              style={{ fontFamily: 'Roboto, sans-serif', lineHeight: '1.6' }}
+              style={{ fontFamily: 'Open Sans, sans-serif', lineHeight: '1.6' }}
             >
               AI-powered business intelligence that processes millions of data points in milliseconds. No code required.
             </p>
@@ -51,8 +51,8 @@ export function HeroModern() {
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <a
                 href="#demo"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-semibold text-base transition-all duration-200 shadow-sm hover:shadow-md cursor-pointer focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-600"
-                style={{ fontFamily: 'Inter, sans-serif' }}
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-blue-700 hover:bg-blue-800 text-white rounded-xl font-semibold text-base transition-all duration-200 shadow-sm hover:shadow-md cursor-pointer focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-700"
+                style={{ fontFamily: 'Poppins, sans-serif' }}
               >
                 Start Free Trial
                 <ArrowRight className="w-5 h-5" strokeWidth={1.5} />
@@ -60,7 +60,7 @@ export function HeroModern() {
               <a
                 href="#features"
                 className="inline-flex items-center justify-center px-8 py-4 bg-slate-100 hover:bg-slate-200 text-slate-900 border border-slate-200 rounded-xl font-semibold text-base transition-all duration-200 cursor-pointer focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-slate-900"
-                style={{ fontFamily: 'Inter, sans-serif' }}
+                style={{ fontFamily: 'Poppins, sans-serif' }}
               >
                 See How It Works
               </a>
@@ -71,7 +71,7 @@ export function HeroModern() {
               <div>
                 <div
                   className="text-3xl font-bold text-slate-900 mb-1"
-                  style={{ fontFamily: 'JetBrains Mono, monospace' }}
+                  style={{ fontFamily: 'Poppins, sans-serif' }}
                 >
                   &lt;100ms
                 </div>
@@ -80,7 +80,7 @@ export function HeroModern() {
               <div>
                 <div
                   className="text-3xl font-bold text-slate-900 mb-1"
-                  style={{ fontFamily: 'JetBrains Mono, monospace' }}
+                  style={{ fontFamily: 'Poppins, sans-serif' }}
                 >
                   99.9%
                 </div>
@@ -89,7 +89,7 @@ export function HeroModern() {
               <div>
                 <div
                   className="text-3xl font-bold text-slate-900 mb-1"
-                  style={{ fontFamily: 'JetBrains Mono, monospace' }}
+                  style={{ fontFamily: 'Poppins, sans-serif' }}
                 >
                   2.5M+
                 </div>
@@ -127,7 +127,7 @@ export function HeroModern() {
                   {/* Large Chart */}
                   <div className="h-40 bg-white rounded-xl border border-slate-200 p-4">
                     <div className="flex items-center gap-2 mb-3">
-                      <TrendingUp className="w-4 h-4 text-indigo-600" strokeWidth={1.5} />
+                      <TrendingUp className="w-4 h-4 text-blue-700" strokeWidth={1.5} />
                       <span className="text-sm font-semibold text-slate-900">Revenue Growth</span>
                     </div>
                     {/* Simplified Line Chart */}
@@ -138,7 +138,7 @@ export function HeroModern() {
                           fill="none"
                           stroke="currentColor"
                           strokeWidth="2"
-                          className="text-indigo-600"
+                          className="text-blue-700"
                         />
                         <path
                           d="M0,60 L50,45 L100,50 L150,30 L200,35 L250,15 L300,20 L300,80 L0,80 Z"
