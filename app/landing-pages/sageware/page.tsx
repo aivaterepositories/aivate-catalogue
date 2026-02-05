@@ -1,27 +1,27 @@
 import { Metadata } from 'next';
 import { FloatingNav } from './_components/FloatingNav';
-import { HeroModern } from './_components/HeroModern';
-import { LogoCloud } from './_components/LogoCloud';
-import { BentoFeatures } from './_components/BentoFeatures';
-import { WallOfLove } from './_components/WallOfLove';
-import { PricingModern } from './_components/PricingModern';
-import { FinalCTAModern } from './_components/FinalCTAModern';
+import { HeroReal } from './_components/HeroReal';
+import { ServicesEnterprise } from './_components/ServicesEnterprise';
+import { ServicesStartup } from './_components/ServicesStartup';
+import { WhyChooseUs } from './_components/WhyChooseUs';
+import { ContactSection } from './_components/ContactSection';
+import { Footer } from './_components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Sageware - Turn Data Into Decisions in Real-Time',
-  description: 'AI-powered business intelligence platform with sub-100ms query performance. Trusted by 10,000+ data teams worldwide. Start your free trial today.',
+  title: 'Sageware Solutions - Custom Software Development Philippines',
+  description: 'Tailored software solutions for enterprises and startups. Custom software, web & mobile apps, MVP development, and technical leadership based in the Philippines.',
 };
 
 export default function SagewarePage() {
   return (
     <main className="min-h-screen bg-white">
       <FloatingNav />
-      <HeroModern />
-      <LogoCloud />
-      <BentoFeatures />
-      <WallOfLove />
-      <PricingModern />
-      <FinalCTAModern />
+      <HeroReal />
+      <ServicesEnterprise />
+      <ServicesStartup />
+      <WhyChooseUs />
+      <ContactSection />
+      <Footer />
     </main>
   );
 }

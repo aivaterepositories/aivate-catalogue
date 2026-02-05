@@ -24,20 +24,17 @@ export function FloatingNav() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            <a href="#features" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors duration-200">
-              Features
+            <a href="#services" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors duration-200">
+              Services
             </a>
-            <a href="#pricing" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors duration-200">
-              Pricing
-            </a>
-            <a href="#testimonials" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors duration-200">
-              Customers
+            <a href="#contact" className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors duration-200">
+              Contact
             </a>
           </div>
 
           {/* CTA */}
           <a
-            href="#demo"
+            href="#contact"
             className="inline-flex items-center gap-2 px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg font-semibold text-sm transition-all duration-200 shadow-sm hover:shadow-md cursor-pointer focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-600"
             style={{ fontFamily: 'Inter, sans-serif' }}
           >
