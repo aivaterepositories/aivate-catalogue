@@ -3,11 +3,11 @@ import { LandingPage } from '@/types';
 export const landingPages: LandingPage[] = [
   {
     id: 1,
-    title: "Sageware - AI-Powered Business Intelligence",
-    description: "Professional SaaS landing page for AI-powered analytics platform. Features real-time analytics, predictive insights, custom dashboards, and enterprise security. Built with Next.js, TypeScript, and Framer Motion for smooth animations.",
-    vercelUrl: "https://aivate-catalogue.vercel.app/landing-pages/sageware",
-    image: "https://placehold.co/1200x800/1E40AF/FFFFFF?text=Sageware+Analytics",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    title: "SaaS Landing - Placeholder",
+    description: "SaaS product landing page with feature showcase and pricing",
+    vercelUrl: "https://example.com",
+    image: "https://placehold.co/1200x800/1E40AF/FFFFFF?text=Landing+Page+1",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
     category: "SaaS"
   },
   {
