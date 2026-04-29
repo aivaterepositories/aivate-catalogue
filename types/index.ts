@@ -29,3 +29,17 @@ export interface Workflow {
   actions: string[];
   integrations: string[];
 }
+
+export interface Portfolio {
+  id: number;
+  title: string;
+  subtitle: string;
+  description: string;
+  image: string;
+  technologies: string[];
+  category: string;
+  status: 'live' | 'in-progress' | 'concept';
+  liveUrl?: string;
+  githubUrl?: string;
+  highlights: string[];
+}

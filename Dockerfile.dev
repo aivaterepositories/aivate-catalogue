@@ -1,0 +1,18 @@
+FROM node:20
+
+
+
+WORKDIR /app
+
+# Copy package files first for dependency caching
+COPY package.json package-lock.json* ./
+
+# Install dependencies inside the container
+RUN npm install
+
+# Source code is bind-mounted via docker-compose volumes
+# node_modules lives in an anonymous volume to avoid host/container conflicts
+
+EXPOSE 3000
+
+CMD ["npm", "run", "dev"]

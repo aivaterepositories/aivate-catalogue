@@ -1,0 +1,31 @@
+services:
+  # Production container — optimized standalone build
+  web:
+    container_name: aivate-catalogue
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runner
+    ports:
+      - "3001:3000"
+    environment:
+      - NODE_ENV=production
+    restart: always
+
+  # Dev container — hot-reload with bind mount
+  dev:
+    container_name: aivate-catalogue-dev
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    command: npm run dev
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+    ports:
+      - "3001:3000"
+    environment:
+      - NODE_ENV=development
+    profiles:
+      - dev

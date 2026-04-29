@@ -5,7 +5,7 @@ import { workflows } from "@/data/workflows";
 
 export default function WorkflowAutomationPage() {
   return (
-    <div className="min-h-screen bg-white dark:bg-slate p-4 md:p-8 transition-colors duration-300">
+    <div className="min-h-screen bg-white dark:bg-slate-950 p-4 md:p-8 transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
         {/* Back Button */}
         <Link
@@ -21,7 +21,7 @@ export default function WorkflowAutomationPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-indigo dark:text-mint mb-4 transition-colors duration-300">
             Workflow Automation Portfolio
           </h1>
-          <p className="text-lg text-slate/70 dark:text-white/70 max-w-2xl mx-auto transition-colors duration-300">
+          <p className="text-lg text-slate-600/70 dark:text-white/70 max-w-2xl mx-auto transition-colors duration-300">
             Intelligent n8n workflows that streamline operations and boost productivity
           </p>
         </header>
@@ -35,7 +35,7 @@ export default function WorkflowAutomationPage() {
             💡 How to add your workflows
           </h3>
           <p className="text-slate/70 dark:text-white/70 text-sm">
-            Edit <code className="px-2 py-1 bg-white/50 dark:bg-slate/50 rounded">data/workflows.ts</code> and replace the placeholder data with your n8n workflow screenshots and descriptions.
+            Edit <code className="px-2 py-1 bg-white/50 dark:bg-slate-900/50 rounded">data/workflows.ts</code> and replace the placeholder data with your n8n workflow screenshots and descriptions.
           </p>
         </div>
       </div>

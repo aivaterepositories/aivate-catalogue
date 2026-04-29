@@ -53,9 +53,8 @@ export function WorkflowCard({ workflows }: WorkflowCardProps) {
     <div className="max-w-6xl mx-auto">
       {/* Main Workflow Card */}
       <div
-        className={`relative bg-white dark:bg-slate/50 rounded-2xl overflow-hidden border-2 border-indigo/20 dark:border-mint/20 shadow-2xl transition-all duration-300 ${
-          isFlipping ? 'scale-95 opacity-50' : 'scale-100 opacity-100'
-        }`}
+        className={`relative bg-white dark:bg-slate-900/50 rounded-2xl overflow-hidden border-2 border-indigo/20 dark:border-mint/20 shadow-2xl transition-all duration-300 ${isFlipping ? 'scale-95 opacity-50' : 'scale-100 opacity-100'
+          }`}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
@@ -69,9 +68,8 @@ export function WorkflowCard({ workflows }: WorkflowCardProps) {
 
           {/* Hover Overlay */}
           <div
-            className={`absolute inset-0 bg-slate/95 dark:bg-slate backdrop-blur-sm transition-all duration-300 ${
-              isHovered ? 'opacity-100' : 'opacity-0 pointer-events-none'
-            }`}
+            className={`absolute inset-0 bg-slate-900/95 dark:bg-slate-950 backdrop-blur-sm transition-all duration-300 ${isHovered ? 'opacity-100' : 'opacity-0 pointer-events-none'
+              }`}
           >
             <div className="h-full flex flex-col justify-center p-8 md:p-12">
               {/* Title */}
@@ -130,20 +128,19 @@ export function WorkflowCard({ workflows }: WorkflowCardProps) {
 
           {/* Hover Hint */}
           <div
-            className={`absolute top-4 right-4 px-4 py-2 bg-black/70 backdrop-blur-sm rounded-lg text-white text-sm transition-opacity duration-300 ${
-              isHovered ? 'opacity-0' : 'opacity-100'
-            }`}
+            className={`absolute top-4 right-4 px-4 py-2 bg-black/70 backdrop-blur-sm rounded-lg text-white text-sm transition-opacity duration-300 ${isHovered ? 'opacity-0' : 'opacity-100'
+              }`}
           >
             Hover to see details
           </div>
         </div>
 
         {/* Bottom Info Bar */}
-        <div className="p-6 bg-white/50 dark:bg-slate/30 backdrop-blur-sm border-t border-indigo/10 dark:border-mint/10">
+        <div className="p-6 bg-white/50 dark:bg-slate-900/30 backdrop-blur-sm border-t border-indigo/10 dark:border-mint/10">
           <h3 className="text-xl font-bold text-indigo dark:text-mint mb-2">
             {currentWorkflow.title}
           </h3>
-          <p className="text-slate/70 dark:text-white/70">
+          <p className="text-slate-600/70 dark:text-white/70">
             {currentWorkflow.description}
           </p>
         </div>
@@ -165,8 +162,8 @@ export function WorkflowCard({ workflows }: WorkflowCardProps) {
           <span className="text-2xl font-bold text-indigo dark:text-mint">
             {currentIndex + 1}
           </span>
-          <span className="text-slate/60 dark:text-white/60 mx-2">of</span>
-          <span className="text-2xl font-bold text-slate dark:text-white">
+          <span className="text-slate-600/60 dark:text-white/60 mx-2">of</span>
+          <span className="text-2xl font-bold text-slate-900 dark:text-white">
             {workflows.length}
           </span>
         </div>
@@ -182,7 +179,7 @@ export function WorkflowCard({ workflows }: WorkflowCardProps) {
       </div>
 
       {/* Keyboard Hint */}
-      <div className="text-center mt-4 text-sm text-slate/60 dark:text-white/60">
+      <div className="text-center mt-4 text-sm text-slate-600/60 dark:text-white/60">
         Hover to see workflow details • Use arrow keys ← → to navigate
       </div>
     </div>
