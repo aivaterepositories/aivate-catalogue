@@ -138,10 +138,10 @@ export default function MindWellPage() {
                     <motion.h1
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="text-5xl md:text-7xl font-heading font-extrabold text-mindwell-dark tracking-tight leading-tight mb-8"
+                        className="text-5xl md:text-7xl font-semibold font-extrabold text-mindwell-dark tracking-tight leading-tight mb-8"
                     >
                         Your Complete Wellness <br />
-                        <span className="bg-clip-text text-transparent bg-gradient-to-r from-mindwell-primary to-mindwell-secondary">Journey Starts Here</span>
+                        <span className="text-mint">Journey Starts Here</span>
                     </motion.h1>
 
                     <motion.p
@@ -191,7 +191,7 @@ export default function MindWellPage() {
             {/* Problem Section */}
             <section className="py-24 px-4 bg-white/50 relative overflow-hidden">
                 <div className="max-w-4xl mx-auto text-center relative z-10">
-                    <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6">
+                    <h2 className="text-3xl md:text-5xl font-semibold font-bold mb-6">
                         Traditional Healthcare Leaves Too Many Gaps
                     </h2>
                     <p className="text-xl text-mindwell-muted leading-relaxed mb-16">
@@ -205,7 +205,7 @@ export default function MindWellPage() {
                             { val: "Limited", sub: "Specialist Access" }
                         ].map((stat, i) => (
                             <div key={i} className="bg-white/70 backdrop-blur-md border border-mindwell-primary/10 rounded-[2rem] p-10 hover:shadow-xl hover:-translate-y-2 transition-all duration-300">
-                                <div className="text-5xl font-heading font-medium text-mindwell-primary mb-3">{stat.val}</div>
+                                <div className="text-5xl font-semibold font-medium text-mindwell-primary mb-3">{stat.val}</div>
                                 <div className="text-sm font-bold uppercase tracking-widest text-mindwell-muted">{stat.sub}</div>
                             </div>
                         ))}
@@ -217,7 +217,7 @@ export default function MindWellPage() {
             <section id="services" className="py-24 px-4">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-20">
-                        <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">Comprehensive Care, One Platform</h2>
+                        <h2 className="text-4xl md:text-5xl font-semibold font-bold mb-6">Comprehensive Care, One Platform</h2>
                         <p className="text-xl text-mindwell-muted max-w-2xl mx-auto">
                             From mental health support to wellness coaching and telemedicine — premium care at your fingertips.
                         </p>
@@ -248,7 +248,7 @@ export default function MindWellPage() {
                                 <div className={`w-20 h-20 ${service.bg} rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform`}>
                                     <service.icon className={`w-10 h-10 ${service.color}`} />
                                 </div>
-                                <h3 className="text-2xl font-heading font-bold mb-4">{service.title}</h3>
+                                <h3 className="text-2xl font-semibold font-bold mb-4">{service.title}</h3>
                                 <p className="text-mindwell-muted mb-8 leading-relaxed">{service.desc}</p>
                                 <a href="#assessment" className={`${service.color} font-bold inline-flex items-center group-hover:translate-x-2 transition-transform`}>
                                     Learn More <ArrowRight className="w-5 h-5 ml-2" />
@@ -262,7 +262,7 @@ export default function MindWellPage() {
             {/* Testimonials Marquee */}
             <section id="testimonials" className="py-24 bg-mindwell-primary/5 overflow-hidden">
                 <div className="text-center mb-16">
-                    <h2 className="text-3xl md:text-5xl font-heading font-bold mb-4">Real People, Real Results</h2>
+                    <h2 className="text-3xl md:text-5xl font-semibold font-bold mb-4">Real People, Real Results</h2>
                     <p className="text-lg text-mindwell-muted">Join thousands who've transformed their health with MindWell</p>
                 </div>
 
@@ -293,7 +293,7 @@ export default function MindWellPage() {
             <section id="pricing" className="py-24 px-4">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-20">
-                        <h2 className="text-4xl md:text-5xl font-heading font-bold mb-6">Flexible Plans for Every Journey</h2>
+                        <h2 className="text-4xl md:text-5xl font-semibold font-bold mb-6">Flexible Plans for Every Journey</h2>
                         <p className="text-xl text-mindwell-muted">Simple, transparent pricing. No long-term commitments.</p>
                     </div>
 
@@ -306,8 +306,8 @@ export default function MindWellPage() {
                         ].map((plan, i) => (
                             <div key={i} className={`bg-white rounded-[2.5rem] p-10 relative border transition-all duration-300 ${plan.popular ? 'border-mindwell-primary ring-4 ring-mindwell-primary/10 shadow-2xl scale-105 z-10' : 'border-mindwell-primary/10 hover:shadow-xl'}`}>
                                 {plan.popular && <div className="absolute top-0 right-0 bg-mindwell-primary text-white text-[10px] font-bold uppercase py-2 px-6 rotate-45 translate-x-5 translate-y-3">Popular</div>}
-                                <h3 className="text-2xl font-heading font-bold mb-4">{plan.name}</h3>
-                                <div className="text-5xl font-heading font-bold text-mindwell-primary mb-10">
+                                <h3 className="text-2xl font-semibold font-bold mb-4">{plan.name}</h3>
+                                <div className="text-5xl font-semibold font-bold text-mindwell-primary mb-10">
                                     ${plan.price}<span className="text-lg text-mindwell-muted font-normal">/mo</span>
                                 </div>
                                 <ul className="space-y-4 mb-10">
@@ -331,7 +331,7 @@ export default function MindWellPage() {
             <section id="assessment" className="py-24 px-4 bg-gradient-to-br from-mindwell-light to-mindwell-secondary/20">
                 <div className="max-w-4xl mx-auto">
                     <div className="bg-white/80 backdrop-blur-xl border border-white rounded-[3rem] p-12 text-center shadow-2xl">
-                        <h2 className="text-4xl md:text-6xl font-heading font-bold mb-8 leading-tight">
+                        <h2 className="text-4xl md:text-6xl font-semibold font-bold mb-8 leading-tight">
                             Start Your Wellness <br /> <span className="text-mindwell-primary italic">Transformation</span>
                         </h2>
                         <p className="text-xl text-mindwell-muted mb-12">We'll match you with the right professionals and build your plan today.</p>
@@ -356,7 +356,7 @@ export default function MindWellPage() {
                     <div className="flex flex-col md:flex-row justify-between items-center opacity-60">
                         <div className="flex items-center space-x-2 mb-4 md:mb-0">
                             <div className="w-8 h-8 bg-mindwell-primary rounded-lg" />
-                            <span className="font-heading font-extrabold text-xl">MindWell</span>
+                            <span className="font-semibold font-extrabold text-xl">MindWell</span>
                         </div>
                         <p className="text-sm">© 2026 MindWell Health. Native Next.js Implementation.</p>
                     </div>

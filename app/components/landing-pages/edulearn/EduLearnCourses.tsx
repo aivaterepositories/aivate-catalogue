@@ -121,7 +121,7 @@ export const EduLearnCourses: React.FC = () => {
                         className="text-5xl lg:text-6xl font-bold text-slate-900 mb-6"
                     >
                         Start Learning{' '}
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-edulearn-primary to-edulearn-secondary">
+                        <span className="text-mint">
                             Today
                         </span>
                     </motion.h2>

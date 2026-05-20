@@ -101,7 +101,7 @@ export const EduLearnHero: React.FC = () => {
                         >
                             <span className="text-slate-900">Transform Your</span>
                             <br />
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-edulearn-primary to-edulearn-secondary">
+                            <span className="text-mint">
                                 Future Today
                             </span>
                         </motion.h1>

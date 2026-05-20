@@ -11,8 +11,6 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: ["var(--font-open-sans)", "sans-serif"],
-        display: ["var(--font-space-grotesk)", "sans-serif"],
-        heading: ["var(--font-lora)", "serif"],
       },
       colors: {
         mint: "#99F6E4",

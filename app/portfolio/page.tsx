@@ -43,9 +43,9 @@ export default function PortfolioPage() {
                         <Sparkles className="w-4 h-4" />
                         Showcase
                     </div>
-                    <h1 className="text-4xl md:text-6xl font-display font-bold text-white mb-5 leading-tight">
+                    <h1 className="text-4xl md:text-6xl font-bold text-white mb-5 leading-tight">
                         Our{' '}
-                        <span className="text-transparent bg-clip-text bg-gradient-indigo-mint">
+                        <span className="text-mint">
                             Portfolio
                         </span>
                     </h1>

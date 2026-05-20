@@ -45,7 +45,7 @@ export default function SevenSidedCubePage() {
                                 <div className="relative w-8 h-8">
                                     <Box className="w-8 h-8 text-indigo animate-float" strokeWidth={2} />
                                 </div>
-                                <span className="text-xl font-bold font-display">SevenSidedCube</span>
+                                <span className="text-xl font-bold font-bold">SevenSidedCube</span>
                             </div>
                         </div>
 
@@ -107,13 +107,13 @@ export default function SevenSidedCubePage() {
 
                 <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center z-10">
                     <div className="inline-block glass-panel px-4 py-2 rounded-full text-sm font-semibold mb-8">
-                        <span className="text-transparent bg-clip-text bg-gradient-indigo-mint">Introducing Dimension-Shifting Technology</span>
+                        <span className="text-indigo-500">Introducing Dimension-Shifting Technology</span>
                     </div>
 
-                    <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold mb-6 leading-tight font-display">
+                    <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold mb-6 leading-tight font-bold">
                         Dimension-Shifting
                         <br />
-                        <span className="text-transparent bg-clip-text bg-gradient-indigo-mint">Productivity</span>
+                        <span className="text-mint">Productivity</span>
                     </h1>
 
                     <p className="text-xl sm:text-2xl text-slate-400 mb-12 max-w-3xl mx-auto leading-relaxed font-light">
@@ -132,15 +132,15 @@ export default function SevenSidedCubePage() {
 
                     <div className="mt-16 flex flex-wrap justify-center items-center gap-12 text-sm">
                         <div className="text-center">
-                            <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-indigo-mint">10K+</div>
+                            <div className="text-3xl font-bold text-indigo-500">10K+</div>
                             <div className="text-slate-500 mt-1 uppercase tracking-wider font-medium">Active Users</div>
                         </div>
                         <div className="text-center">
-                            <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-indigo-mint">99.9%</div>
+                            <div className="text-3xl font-bold text-indigo-500">99.9%</div>
                             <div className="text-slate-500 mt-1 uppercase tracking-wider font-medium">Uptime SLA</div>
                         </div>
                         <div className="text-center">
-                            <div className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-indigo-mint">7</div>
+                            <div className="text-3xl font-bold text-indigo-500">7</div>
                             <div className="text-slate-500 mt-1 uppercase tracking-wider font-medium">Dimensions</div>
                         </div>
                     </div>
@@ -151,8 +151,8 @@ export default function SevenSidedCubePage() {
             <section id="features" className="py-24 px-4 sm:px-6 lg:px-8 bg-slate/50">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-16">
-                        <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 font-display">
-                            Seven Dimensions of <span className="text-transparent bg-clip-text bg-gradient-indigo-mint">Power</span>
+                        <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 font-bold">
+                            Seven Dimensions of <span className="text-mint">Power</span>
                         </h2>
                         <p className="text-xl text-slate-400 max-w-2xl mx-auto font-light">
                             Each side of the cube unlocks a new dimension of productivity
@@ -165,7 +165,7 @@ export default function SevenSidedCubePage() {
                                 <div className="w-14 h-14 bg-indigo/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                                     <Zap className="w-7 h-7 text-indigo" strokeWidth={2} />
                                 </div>
-                                <h3 className="text-2xl font-bold mb-3 font-display">Lightning Speed</h3>
+                                <h3 className="text-2xl font-bold mb-3 font-bold">Lightning Speed</h3>
                                 <p className="text-slate-400 leading-relaxed mb-6 flex-grow font-light">
                                     Process tasks 10x faster with our quantum-inspired algorithms. Real-time collaboration that feels instant.
                                 </p>
@@ -185,7 +185,7 @@ export default function SevenSidedCubePage() {
                             <div className="w-14 h-14 bg-purple-500/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                                 <Brain className="w-7 h-7 text-purple-400" strokeWidth={2} />
                             </div>
-                            <h3 className="text-2xl font-bold mb-3 font-display">AI Brain</h3>
+                            <h3 className="text-2xl font-bold mb-3 font-bold">AI Brain</h3>
                             <p className="text-slate-400 leading-relaxed font-light">
                                 Intelligent automation that learns your patterns and predicts your needs.
                             </p>
@@ -195,7 +195,7 @@ export default function SevenSidedCubePage() {
                             <div className="w-14 h-14 bg-mint/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                                 <Lock className="w-7 h-7 text-mint" strokeWidth={2} />
                             </div>
-                            <h3 className="text-2xl font-bold mb-3 font-display">Quantum Security</h3>
+                            <h3 className="text-2xl font-bold mb-3 font-bold">Quantum Security</h3>
                             <p className="text-slate-400 leading-relaxed font-light">
                                 Military-grade encryption meets quantum-resistant algorithms.
                             </p>
@@ -206,7 +206,7 @@ export default function SevenSidedCubePage() {
                                 <div className="w-14 h-14 bg-indigo/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                                     <Users className="w-7 h-7 text-indigo-400" strokeWidth={2} />
                                 </div>
-                                <h3 className="text-2xl font-bold mb-3 font-display">Team Synergy</h3>
+                                <h3 className="text-2xl font-bold mb-3 font-bold">Team Synergy</h3>
                                 <p className="text-slate-400 leading-relaxed mb-6 flex-grow font-light">
                                     Collaborate seamlessly across dimensions. Share context, not just files.
                                 </p>
@@ -225,7 +225,7 @@ export default function SevenSidedCubePage() {
                             <div className="w-14 h-14 bg-blue-500/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                                 <BarChart3 className="w-7 h-7 text-blue-400" strokeWidth={2} />
                             </div>
-                            <h3 className="text-2xl font-bold mb-3 font-display">Analytics++</h3>
+                            <h3 className="text-2xl font-bold mb-3 font-bold">Analytics++</h3>
                             <p className="text-slate-400 leading-relaxed font-light">
                                 Predictive insights that show you the future, not just the past.
                             </p>
@@ -235,7 +235,7 @@ export default function SevenSidedCubePage() {
                             <div className="w-14 h-14 bg-pink-500/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                                 <Sparkles className="w-7 h-7 text-pink-400" strokeWidth={2} />
                             </div>
-                            <h3 className="text-2xl font-bold mb-3 font-display">Magic Workflows</h3>
+                            <h3 className="text-2xl font-bold mb-3 font-bold">Magic Workflows</h3>
                             <p className="text-slate-400 leading-relaxed font-light">
                                 Automate the impossible with AI-powered workflow generation.
                             </p>
@@ -245,7 +245,7 @@ export default function SevenSidedCubePage() {
                             <div className="w-14 h-14 bg-orange-500/20 rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                                 <Box className="w-7 h-7 text-orange-400" strokeWidth={2} />
                             </div>
-                            <h3 className="text-2xl font-bold mb-3 font-display">Infinite Scale</h3>
+                            <h3 className="text-2xl font-bold mb-3 font-bold">Infinite Scale</h3>
                             <p className="text-slate-400 leading-relaxed font-light">
                                 From 1 to 1 million users. Scale without limits or lag.
                             </p>
@@ -282,7 +282,7 @@ export default function SevenSidedCubePage() {
                             ].map(({ component: Icon, name }, i) => (
                                 <div key={i} className="flex-shrink-0 flex items-center gap-3 text-slate-500 hover:text-mint transition-all duration-500 group cursor-pointer">
                                     <Icon size={32} className="grayscale group-hover:grayscale-0 group-hover:scale-110 group-hover:text-mint transition-all duration-500" />
-                                    <span className="text-xl font-bold font-display tracking-tight">{name}</span>
+                                    <span className="text-xl font-bold font-bold tracking-tight">{name}</span>
                                 </div>
                             ))}
                             {/* Duplicate for seamless loop */}
@@ -298,7 +298,7 @@ export default function SevenSidedCubePage() {
                             ].map(({ component: Icon, name }, i) => (
                                 <div key={`dup-${i}`} className="flex-shrink-0 flex items-center gap-3 text-slate-500 hover:text-mint transition-all duration-500 group cursor-pointer">
                                     <Icon size={32} className="grayscale group-hover:grayscale-0 group-hover:scale-110 group-hover:text-mint transition-all duration-500" />
-                                    <span className="text-xl font-bold font-display tracking-tight">{name}</span>
+                                    <span className="text-xl font-bold font-bold tracking-tight">{name}</span>
                                 </div>
                             ))}
                         </div>
@@ -313,8 +313,8 @@ export default function SevenSidedCubePage() {
                 <div className="max-w-4xl mx-auto">
                     <div className="glass-panel glass-card-hover rounded-3xl p-12 text-center border-mint/20 relative overflow-hidden">
                         <div className="absolute top-0 right-0 w-64 h-64 bg-mint/5 rounded-full blur-[80px] -z-10" />
-                        <h2 className="text-4xl sm:text-5xl font-bold mb-6 font-display text-white">
-                            Ready to Shift Your <span className="text-transparent bg-clip-text bg-gradient-indigo-mint">Reality?</span>
+                        <h2 className="text-4xl sm:text-5xl font-bold mb-6 font-bold text-white">
+                            Ready to Shift Your <span className="text-mint">Reality?</span>
                         </h2>
                         <p className="text-xl text-slate-400 mb-8 max-w-2xl mx-auto font-light">
                             Join 10,000+ teams already operating in multiple dimensions. Start your free trial today.
@@ -359,7 +359,7 @@ export default function SevenSidedCubePage() {
                 <div className="max-w-7xl mx-auto">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
                         <div>
-                            <h3 className="font-bold mb-4 font-display">Product</h3>
+                            <h3 className="font-bold mb-4 font-bold">Product</h3>
                             <ul className="space-y-2 text-slate-500 text-sm font-medium">
                                 <li><a href="#" className="hover:text-mint transition-colors duration-150">Features</a></li>
                                 <li><a href="#" className="hover:text-mint transition-colors duration-150">Pricing</a></li>
@@ -368,7 +368,7 @@ export default function SevenSidedCubePage() {
                             </ul>
                         </div>
                         <div>
-                            <h3 className="font-bold mb-4 font-display">Company</h3>
+                            <h3 className="font-bold mb-4 font-bold">Company</h3>
                             <ul className="space-y-2 text-slate-500 text-sm font-medium">
                                 <li><a href="#" className="hover:text-mint transition-colors duration-150">About</a></li>
                                 <li><a href="#" className="hover:text-mint transition-colors duration-150">Blog</a></li>
@@ -377,7 +377,7 @@ export default function SevenSidedCubePage() {
                             </ul>
                         </div>
                         <div>
-                            <h3 className="font-bold mb-4 font-display">Resources</h3>
+                            <h3 className="font-bold mb-4 font-bold">Resources</h3>
                             <ul className="space-y-2 text-slate-500 text-sm font-medium">
                                 <li><a href="#" className="hover:text-mint transition-colors duration-150">Documentation</a></li>
                                 <li><a href="#" className="hover:text-mint transition-colors duration-150">API</a></li>
@@ -386,7 +386,7 @@ export default function SevenSidedCubePage() {
                             </ul>
                         </div>
                         <div>
-                            <h3 className="font-bold mb-4 font-display">Legal</h3>
+                            <h3 className="font-bold mb-4 font-bold">Legal</h3>
                             <ul className="space-y-2 text-slate-500 text-sm font-medium">
                                 <li><a href="#" className="hover:text-mint transition-colors duration-150">Privacy</a></li>
                                 <li><a href="#" className="hover:text-mint transition-colors duration-150">Terms</a></li>
@@ -399,7 +399,7 @@ export default function SevenSidedCubePage() {
                     <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/10">
                         <div className="flex items-center gap-2 mb-4 md:mb-0">
                             <Box className="w-6 h-6 text-indigo" strokeWidth={2} />
-                            <span className="font-bold font-display">SevenSidedCube</span>
+                            <span className="font-bold font-bold">SevenSidedCube</span>
                         </div>
                         <p className="text-slate-500 text-sm font-medium uppercase tracking-widest leading-none">
                             © 2026 SevenSidedCube • Establish Your Presence

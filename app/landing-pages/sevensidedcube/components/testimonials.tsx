@@ -35,7 +35,7 @@ export const Testimonials: React.FC = () => {
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
                     <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-                        Trusted by <span className="text-transparent bg-clip-text bg-gradient-indigo-mint">Visionaries</span>
+                        Trusted by <span className="text-mint">Visionaries</span>
                     </h2>
                     <p className="text-slate-400 text-lg max-w-2xl mx-auto">
                         Join thousands of teams who have already shifted their reality with SevenSidedCube.
@@ -70,7 +70,7 @@ export const Testimonials: React.FC = () => {
                                     />
                                 </div>
                                 <div>
-                                    <h4 className="font-bold text-white group-hover:text-mint transition-colors font-display">
+                                    <h4 className="font-bold text-white group-hover:text-mint transition-colors font-bold">
                                         {testimonial.name}
                                     </h4>
                                     <p className="text-sm text-slate-500">
