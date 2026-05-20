@@ -22,7 +22,7 @@
 
 @layer utilities {
   .glass-panel {
-    @apply bg-slate-900/40 backdrop-blur-xl border border-white/10 shadow-xl;
+    @apply bg-slate-900/60 border border-white/10 shadow-xl;
   }
 
   .glass-card-hover {

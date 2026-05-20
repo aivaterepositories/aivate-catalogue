@@ -14,25 +14,27 @@ export default function Home() {
           Premium Digital Solutions
         </div>
         <h1 className="text-5xl md:text-7xl font-display font-bold mb-6 text-white leading-tight">
-          Crafting the <span className="text-transparent bg-clip-text bg-gradient-indigo-mint">Future</span> of <br className="hidden md:block" /> Digital Experience.
+          Crafting the <span className="text-mint">Future</span> of <br className="hidden md:block" /> Digital Experience.
         </h1>
         <p className="text-lg md:text-xl text-slate-300 font-light max-w-2xl mx-auto leading-relaxed">
           Aivate's curated portfolio of high-performance Landing Pages, Dashboard Systems, and Intelligent Automation.
         </p>
       </header>
 
-      {/* Portfolio Grid (Bento Style) */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl w-full relative z-10 animate-slide-up" style={{ animationDelay: '0.2s' }}>
+      {/* Portfolio Grid (Asymmetric Bento Layout) */}
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-7xl w-full relative z-10 animate-slide-up" style={{ animationDelay: '0.2s' }}>
 
-        {/* Card 1: Portfolio Showcase (Featured) */}
-        <NavigationCard
-          href="/portfolio"
-          icon={<Briefcase className="w-8 h-8 text-white" />}
-          title="Portfolio"
-          description="Explore our curated showcase of premium digital experiences."
-          gradient="from-mint to-teal-500"
-          delay="0s"
-        />
+        {/* Card 1: Portfolio Showcase (Featured - Spans 2 columns on large screens) */}
+        <div className="lg:col-span-2">
+          <NavigationCard
+            href="/portfolio"
+            icon={<Briefcase className="w-8 h-8 text-white" />}
+            title="Portfolio"
+            description="Explore our curated showcase of premium digital experiences."
+            gradient="from-mint to-teal-500"
+            delay="0s"
+          />
+        </div>
 
         {/* Card 2: Landing Pages */}
         <NavigationCard
@@ -54,15 +56,17 @@ export default function Home() {
           delay="0.2s"
         />
 
-        {/* Card 4: Automation */}
-        <NavigationCard
-          href="/workflow-automation"
-          icon={<Workflow className="w-8 h-8 text-white" />}
-          title="Workflow Automation"
-          description="Seamless n8n integrations to power your operations."
-          gradient="from-cyan-500 to-blue-600"
-          delay="0.3s"
-        />
+        {/* Card 4: Automation (Spans 2 columns on large screens) */}
+        <div className="lg:col-span-2">
+          <NavigationCard
+            href="/workflow-automation"
+            icon={<Workflow className="w-8 h-8 text-white" />}
+            title="Workflow Automation"
+            description="Seamless n8n integrations to power your operations."
+            gradient="from-cyan-500 to-blue-600"
+            delay="0.3s"
+          />
+        </div>
       </div>
 
       {/* Footer */}
@@ -86,7 +90,7 @@ function NavigationCard({ href, icon, title, description, gradient, delay }: Nav
   return (
     <Link href={href} className="group block h-full">
       <div
-        className="glass-panel glass-card-hover h-full p-8 rounded-3xl relative overflow-hidden flex flex-col"
+        className="bg-slate-900/60 border border-white/10 glass-card-hover h-full p-8 rounded-3xl relative overflow-hidden flex flex-col"
         style={{ animationDelay: delay }}
       >
         {/* Dynamic Gradient Background on Hover */}
