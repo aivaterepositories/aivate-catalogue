@@ -2,9 +2,10 @@
 
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Sparkles } from 'lucide-react';
-import { PortfolioGrid } from '../components/PortfolioGrid';
-import { portfolios } from '@/data/portfolios';
+import { ArrowLeft } from 'lucide-react';
+import { PortfolioHero } from '../components/PortfolioHero';
+import { PortfolioGridEnhanced } from '../components/PortfolioGridEnhanced';
+import { agencyOSPortfolio } from '@/data/portfolio-items';
 
 export default function PortfolioPage() {
     return (
@@ -32,31 +33,11 @@ export default function PortfolioPage() {
                     </Link>
                 </motion.div>
 
-                {/* Header */}
-                <motion.header
-                    className="text-center mb-14 md:mb-20"
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6, delay: 0.1 }}
-                >
-                    <div className="inline-flex items-center gap-2 mb-4 px-4 py-1.5 rounded-full border border-mint/20 bg-mint/5 text-mint text-sm font-medium tracking-wide uppercase">
-                        <Sparkles className="w-4 h-4" />
-                        Showcase
-                    </div>
-                    <h1 className="text-4xl md:text-6xl font-bold text-white mb-5 leading-tight">
-                        Our{' '}
-                        <span className="text-mint">
-                            Portfolio
-                        </span>
-                    </h1>
-                    <p className="text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed">
-                        A curated collection of premium digital experiences — from conversion-focused
-                        landing pages to intelligent dashboard systems.
-                    </p>
-                </motion.header>
+                {/* Hero Section (Zelda's Component) */}
+                <PortfolioHero />
 
-                {/* Portfolio Grid */}
-                <PortfolioGrid portfolios={portfolios} />
+                {/* Portfolio Grid with Search, Filters, and Lightbox (Zelda's Enhanced Component) */}
+                <PortfolioGridEnhanced portfolios={agencyOSPortfolio} />
 
                 {/* Footer */}
                 <motion.footer

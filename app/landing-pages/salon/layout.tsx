@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
-import "./globals.css";
 
 const playfair = Playfair_Display({
   variable: "--font-playfair",

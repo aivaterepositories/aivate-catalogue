@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Globe, LayoutDashboard, Workflow, Briefcase, ArrowRight } from "lucide-react";
+import { Globe, LayoutDashboard, Workflow, Briefcase, ArrowRight, Server, Zap } from "lucide-react";
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
       </header>
 
       {/* Portfolio Grid (Bento Style) */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl w-full relative z-10 animate-slide-up" style={{ animationDelay: '0.2s' }}>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl w-full relative z-10 animate-slide-up" style={{ animationDelay: '0.2s' }}>
 
         {/* Card 1: Portfolio Showcase (Featured) */}
         <NavigationCard
@@ -54,14 +54,34 @@ export default function Home() {
           delay="0.2s"
         />
 
-        {/* Card 4: Automation */}
+        {/* Card 4: Backoffice Demo (NEW) */}
+        <NavigationCard
+          href="/backoffice-demo"
+          icon={<Server className="w-8 h-8 text-white" />}
+          title="Backoffice Demo"
+          description="Full-featured enterprise management system showcase."
+          gradient="from-emerald-500 to-teal-600"
+          delay="0.3s"
+        />
+
+        {/* Card 5: Automation Showcase (NEW) */}
+        <NavigationCard
+          href="/automation"
+          icon={<Zap className="w-8 h-8 text-white" />}
+          title="Automation"
+          description="AI-powered n8n workflows that streamline operations."
+          gradient="from-amber-500 to-orange-600"
+          delay="0.4s"
+        />
+
+        {/* Card 6: Legacy Workflow Automation */}
         <NavigationCard
           href="/workflow-automation"
           icon={<Workflow className="w-8 h-8 text-white" />}
-          title="Workflow Automation"
+          title="Workflow Gallery"
           description="Seamless n8n integrations to power your operations."
           gradient="from-cyan-500 to-blue-600"
-          delay="0.3s"
+          delay="0.5s"
         />
       </div>
 

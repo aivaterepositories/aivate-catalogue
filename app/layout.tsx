@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
-import { Open_Sans } from "next/font/google";
+import { Open_Sans, Geist } from "next/font/google";
 import { ReactNode } from "react";
 import "./globals.css";
+import { cn } from "@/lib/utils";
+
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 const openSans = Open_Sans({
   subsets: ["latin"],
@@ -20,7 +23,7 @@ export default function RootLayout({
   children: ReactNode;
 }) {
   return (
-    <html lang="en" className={`${openSans.variable} scroll-smooth`}>
+    <html lang="en" className={cn("scroll-smooth", openSans.variable, "font-sans", geist.variable)}>
       <body className="font-sans bg-slate-900 text-white min-h-screen selection:bg-mint selection:text-slate-900">
         {children}
       </body>
